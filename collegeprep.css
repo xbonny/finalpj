@@ -5,30 +5,18 @@ h1{
   text-indent: 0%;
 }
 
+h3{
+  text-indent: 0%;
+  font-size: 24px;
+  text-align: left;
+}
+
 body{
-  text-indent: 50px;
+  text-indent: 40px;
   font-family: 'DM Sans', sans-serif;
   font-size: 18px;
   margin: 50px 50px 50px 50px;
   color: #554640;
-}
-
-.button_intro{
-  background-color: #CDE6F5;
-  color: #554640;
-  text-align: center;
-  padding: 14px 30px;
-  border-radius: 8px;
-  font-size: 16px;
-  border: 3px solid #554640;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  transition: 0.4s
-}
-
-.button_intro:hover{
-  background-color: #554640;
-  color: #CDE6F5;
-  border-color: #CDE6F5;
 }
 
 /* Style the navbar */
@@ -36,6 +24,7 @@ body{
   overflow: hidden;
   background-color: #CDE6F5;
   border: 3px solid #554640;
+  margin: 0%;
 }
 
 /* Navbar links */
@@ -44,14 +33,25 @@ body{
   display: block;
   color: #554640;
   text-align: center;
-  padding: 14px;
+  padding: 14px 16px;
   text-decoration: none;
   font-style: 'DM Sans', sans-serif;
+  transition: 0.4s;
+}
+
+#navbar a:hover{
+  background-color: #accfe8;
+  color: #453a35;
+}
+
+#navbar a:active{
+  background-color: #554640;
+  color: #CDE6F5;
 }
 
 /* Page content */
 .content {
-  padding: 16px;
+  color: #554640;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
