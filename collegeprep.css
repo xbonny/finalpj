@@ -1,0 +1,67 @@
+h1{
+  font-family: 'Tangerine', cursive;
+  font-size: 50px;
+  text-align: center;
+  text-indent: 0%;
+}
+
+body{
+  text-indent: 50px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+  margin: 50px 50px 50px 50px;
+  color: #554640;
+}
+
+.button_intro{
+  background-color: #CDE6F5;
+  color: #554640;
+  text-align: center;
+  padding: 14px 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  border: 3px solid #554640;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transition: 0.4s
+}
+
+.button_intro:hover{
+  background-color: #554640;
+  color: #CDE6F5;
+  border-color: #CDE6F5;
+}
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #CDE6F5;
+  border: 3px solid #554640;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #554640;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-style: 'DM Sans', sans-serif;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
