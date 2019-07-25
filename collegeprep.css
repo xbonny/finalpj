@@ -1,29 +1,33 @@
-h1{
+.header{
   font-family: 'Tangerine', cursive;
-  font-size: 50px;
+  font-size: 45px;
   text-align: center;
   text-indent: 0%;
+  padding: 30px;
+  color: #554640;
+  background-image: url("blue-stone.jfif");
+}
+
+.title{
+  font-family: 'Tangerine', cursive;
+  font-size: 25px;
+  text-align: center;
+  color: #554640;
 }
 
 h3{
+  text-indent: 40px;
+  font-family: 'DM Sans', sans-serif;
   text-indent: 0%;
   font-size: 24px;
   text-align: left;
-}
-
-body{
-  text-indent: 40px;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 18px;
-  margin: 50px 50px 50px 50px;
   color: #554640;
 }
 
 /* Style the navbar */
 #navbar {
   overflow: hidden;
-  background-color: #CDE6F5;
-  border: 3px solid #554640;
+  background-color: #554640;
   margin: 0%;
 }
 
@@ -31,26 +35,26 @@ body{
 #navbar a {
   float: left;
   display: block;
-  color: #554640;
+  color: #CDE6F5;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 28px;
   text-decoration: none;
-  font-style: 'DM Sans', sans-serif;
+  font-family: 'DM Sans', sans-serif;
+  text-indent: 0%;
   transition: 0.4s;
 }
 
 #navbar a:hover{
-  background-color: #accfe8;
-  color: #453a35;
-}
-
-#navbar a:active{
-  background-color: #554640;
-  color: #CDE6F5;
+  background-color: #3d342e;
+  color: #a0c1de;
 }
 
 /* Page content */
 .content {
+  text-indent: 40px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+  margin: 50px 50px 50px 50px;
   color: #554640;
 }
 
