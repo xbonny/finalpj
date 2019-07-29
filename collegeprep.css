@@ -3,9 +3,42 @@
   font-size: 45px;
   text-align: center;
   text-indent: 0%;
-  padding: 30px;
+  padding: 35px;
   color: #554640;
   background-image: url("blue-stone.jfif");
+  margin: -1% -1% 0 -1%;
+}
+
+.footer{
+  padding: 30px;
+  margin: 0% -1% 0% -1%;
+  background-color: #554640;
+  text-align: left;
+  text-indent: 40px;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+figcaption{
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+a:link{
+  font-family: 'DM Sans', sans-serif;
+  color: #CDE6F5
+}
+
+a:visited{
+  font-family: 'DM Sans', sans-serif;
+  color: #CDE6F5
 }
 
 .title{
@@ -28,7 +61,7 @@ h3{
 #navbar {
   overflow: hidden;
   background-color: #554640;
-  margin: 0%;
+  margin: 0% -1% 0% -1%;
 }
 
 /* Navbar links */
